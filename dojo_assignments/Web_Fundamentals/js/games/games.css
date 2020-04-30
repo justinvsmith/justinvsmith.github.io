@@ -4,33 +4,39 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #fff;
+    height: 600px;
 }
 
-div.row div {
-    width: 20px;
+.row{
+    width: 220px;
     height: 20px;
     display: inline-block;
+    background-color: green;
 }
 
 
-div.brick {
+.brick {
     background-color: blue;
+    width: 120px;
+    height: 20px;
+    display: inline-block;
 
 }
 
-div.coin {
+.coin {
     background: url('img/coin.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: inline-block;
 }
 
-div.empty {
+.empty {
     background: none;
 }
 
-div.pacman {
+.pacman {
     background: url('img/pacman.gif');
     background-repeat: no-repeat;
     background-position: center;
