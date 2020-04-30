@@ -5,45 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-        $("document").ready(function(){
-var world = [
-    [2,2,2,2,2,2,2,2,2,2],
-    [2,1,1,2,1,1,1,1,1,2],
-    [2,1,1,2,1,2,2,2,1,2],
-    [2,1,1,2,1,2,1,2,1,2],
-    [2,1,1,2,1,2,1,2,1,2],
-    [2,1,1,2,2,2,1,2,1,2],
-    [2,1,1,1,1,1,1,2,1,2],
-    [2,1,1,1,1,1,1,1,1,2],
-    [2,2,2,2,2,2,2,2,2,2]
-];
-
-    var output = '';
-
-    for(var i=0; i<world.length; i++){
-        output += "\n<div class='row'>";
-        for(var j=0; j<world[i].length; j++){
-            if(world[i][j] === 2){
-            output += "<div.class='brick'>";
-            output += "</div>";
-            } else if(world[i][j] === 1){
-                output += "<div.class='coin'>";
-                output += "</div>";
-            } else if(world[i][j] === 0){
-                output += "<div.class='empty'>";
-                output += "</div>";
-            }
-        }
-        output += "\n</div>";
-    }
-    console.log(output);
-    $(".wrapper").html(output);
-});
-    </script>
+    <script src="games.js"></script>
     <link rel="stylesheet" href="games.css">
 </head>
 <body>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+    </div>
+    <div id="container">
+        <div id="world"></div>
+        <div id="pacman"></div>
+    </div>
 </body>
 </html>
