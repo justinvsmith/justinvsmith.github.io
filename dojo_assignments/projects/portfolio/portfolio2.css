@@ -71,7 +71,6 @@
    .content {
     color: black;
     padding: 8%;
-    text-align: justify;
   }
 
   .content:nth-of-type(2n) {
@@ -82,6 +81,7 @@
    font-size: 3em;
    padding: 10%;
    color: #3C7399;
+   text-align: center;
   }
 
   .content p {
@@ -94,9 +94,9 @@
     background-color: #ffffff;
   }
   .aboutMe a{
-    width: 75%;
+    width: 70%;
     padding: 20px 30px;
-    margin: 20px auto;
+    margin: 30px auto;
     background-color: #3F7498;
     display: block;
     text-transform: capitalize;
