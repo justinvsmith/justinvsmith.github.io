@@ -72,7 +72,7 @@
       padding: 8%;
     }
   
-    .content:nth-of-type(2n) {
+    .content:nth-of-type(odd) {
      background-color: #F1F0F0;
     }
   
