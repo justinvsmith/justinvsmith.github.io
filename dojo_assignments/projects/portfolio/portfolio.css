@@ -79,7 +79,6 @@
    .content {
      color: black;
      padding: 8%;
-     text-align: center;
    }
 
    .content:nth-of-type(2n) {
