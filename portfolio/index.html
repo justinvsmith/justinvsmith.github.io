@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Smith - Developer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="js/portfolio.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/yyx0njf.css">
 </head>
 <body>
-    <p>Placeholder text</p>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <a href="javascript:void(0)" class="closebtn">&times;</a>
+                <a href="aboutMe">About Me</a>
+                <a href="skills">Skills</a>
+                <a href="projects">Projects</a>
+                <a href="contactMe">Contact Me</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="headline">
+                <span id="open" style="font-size:30px;cursor:pointer" >&#9776;</span>
+            </div>
+            <div class="welcome">
+                <p><span>Justin</span> Smith</p>
+                <p>Full-Stack Developer | <span>Oakland, CA</span></p>
+            </div>
+            <div class="content" id="aboutMe"></div>
+            <div class="content" id="skills"></div>
+            <div class="content" id="projects"></div>
+            <div class="content"  id="contactMe"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
 </body>
 </html>
