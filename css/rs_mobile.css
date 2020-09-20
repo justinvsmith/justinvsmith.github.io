@@ -118,7 +118,7 @@ a {
     display: none;
 }
 
-button {
+.mButtons button {
     padding: 8px 25px;
     width: 125px;
     border-radius: 50px;
