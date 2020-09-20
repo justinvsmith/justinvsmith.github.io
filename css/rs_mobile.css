@@ -126,6 +126,19 @@ a {
     border: none;
 }
 
+#resume {
+    background-color: #3D90D3;
+    color: #ffffff;
+    border: 1px solid #3D90D3;
+    transition: background-color .5s;
+}
+
+#projects {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    transition: background-color .5s;
+}
+
 .footer {
     padding: 20px;
 }
