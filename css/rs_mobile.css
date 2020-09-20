@@ -126,14 +126,14 @@ a {
     border: none;
 }
 
-#resume {
+#mResume {
     background-color: #3D90D3;
     color: #ffffff;
     border: 1px solid #3D90D3;
     transition: background-color .5s;
 }
 
-#projects {
+#mProjects {
     background-color: #ffffff;
     border: 1px solid #000000;
     transition: background-color .5s;
