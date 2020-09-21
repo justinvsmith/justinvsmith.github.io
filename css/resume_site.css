@@ -19,6 +19,7 @@
     margin-bottom: 15px;
     position: fixed;
     background-color: #ffffff;
+    z-index: 3;
 }
 
 .headerLeft, .headerRight {
@@ -342,6 +343,30 @@ h4 {
     Project Page
     ------------ */
 
+.front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotateY(180deg);
+    color: #000000;
+}
+
+.projContent h2 {
+    color: #27557C;
+}
+
+.bcmglass h2 {
+    color: #ffffff;
+}
+
 .flip-container {
     perspective: 1000px;
 }
@@ -352,8 +377,8 @@ h4 {
 
 .flip-container, .front, .back {
     width: 950px;
-    border: 1px solid green;
-    margin: 20px auto;
+    height: 500px;
+    margin: 40px auto;
 }
 
 .flipper {
@@ -369,16 +394,48 @@ h4 {
     left: 0;
 }
 
-.front {
+/* .front {
     z-index: 2;
     transform: rotateY(0deg);
+
+} */
+
+
+.back ul {
+    width: 63%;
+    font-size: 0.8em;
 }
 
-.back {
-    transform: rotateY(180deg);
+.back li {
+    margin-bottom: 20px;
+    list-style-type: square;
+    font-weight: 300;
 }
 
+.back h3 {
+    width: 27%;
+    color: #3D90D3;
+}
 
+.back p {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.bcmglass {
+    background-image: url('../images/bcmGlass.png');
+    background-size: cover;
+}
+
+.everybuck {
+    background-image: url('../images/everyBuck.png');
+    background-size: cover;
+}
+
+.vratchat {
+    background-image: url('../images/vratChat.png');
+    background-size: cover;
+}
 
 }
 
