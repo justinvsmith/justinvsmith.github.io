@@ -368,7 +368,8 @@ h4 {
 }
 
 .flip-container {
-    perspective: 1000px;
+    padding: 20px;
+    background-color:
 }
 
 .flip-container:hover .flipper, .flip-container.hover .flipper {
