@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Smith</title>
     <link rel="stylesheet" href="css/resume_site.css">
-    <link rel="stylesheet" href="css/rs_mobile.css">
-    <link rel="stylesheet" href="css/rs_tablet.css">
+    <!-- <link rel="stylesheet" href="css/rs_mobile.css">
+    <link rel="stylesheet" href="css/rs_tablet.css"> -->
     <script src="https://kit.fontawesome.com/56bef1114a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <script src="js/project.js"></script>
@@ -27,56 +27,30 @@
             </div>
         </div>
         <div class="main">
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="projContent front bcmglass" onclick="glassOn()">
-                        <h2>BCM GLASS</h2>
-                    </div>
-                    <div class="projContent back" id="bcmglass" onclick="glassOff()">
-                        <div>
-                            <h3>BCM Glass</h3>
-                            <p>E-Commerce website for artisan glassblower</p>
+            <div id="shade">
+                <div class="flip-container">
+                        <div class="projContent front bcmglass" onclick="glassOn()">
                         </div>
-                        <ul>
-                            <li>Designed responsive site using Flexbox to quickly and seamlessly adapt for various screen widths</li>
-                            <li>Saved customer interactions with Django sessions for seamless customer interactions even if they leave site before they have made purchase</li>
-                            <li>Implemented Bcrypt and hashing for securing customer passwords on site login</li>
-                        </ul>
-                    </div>
-            </div>
-            
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="projContent front everybuck" onclick="buckOn()">
-                        <h2>EveryBuck</h2>
-                    </div>
-                    <div class="projContent back" id="everybuck" onclick="buckOff()">
-                        <div>
-                            <h3>EveryBuck</h3>
-                            <p>Every Dollar clone for budgeting</p>
+                        <div class="content2">
+                            <h2>BCM GLASS</h2>
                         </div>
-                        <ul>
-                            <li>Created a quickly iterable foundation using SpringBoot MVC for easy component updates</li>
-                            <li>Enabled complex layering of expenses by setting up one-to-many relationships in MySQL to easily associate spend with various categories or expense types</li>
-                            <li>Increased speed of data retrieval with JDBC to quickly and easily present how and where users spent their money</li>
-                        </ul>
-                    </div>
-            </div>
+                </div>
+                
+                <div class="flip-container">
+                        <div class="projContent front everybuck" onclick="buckOn()">
+                        </div>
+                        <div class="content2">
+                            <h2>EveryBuck</h2>
+                        </div>
+                </div>
 
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="projContent front vratchat" onclick="vratOn()">
-                        <h2>VratChat</h2>
-                    </div>
-                    <div class="projContent back" id="vratchat" onclick="vratOff()">
-                        <div>
-                            <h3>VratChat</h3>
-                            <p>WhatsApp chat clone</p>
+                <div class="flip-container">
+                        <div class="projContent front vratchat" onclick="vratOn()">
                         </div>
-                        <ul>
-                            <li>Enabled real-time chat interactions using Socket.IO and used MongoDb to quickly access history of chats</li>
-                            <li>Designed a simple, intuitive single page application using React.js to eliminate complex navigation</li>
-                            <li>Recreated the look/feel of WhatsApp with material-ui and css to create a familiar setup for users</li>
-                            <li>Streamlined user login and security for login using Firebase to enable quick Google authentication</li>
-                        </ul>
-                    </div>
+                        <div class="content2">
+                            <h2>VratChat</h2>
+                        </div>
+                </div>
             </div>
         </div>
     </div>

@@ -8,6 +8,7 @@
 @media screen and (min-width: 768px){
 .container {
     width: 100%;
+    
 }
 
 .header {
@@ -343,21 +344,22 @@ h4 {
     Project Page
     ------------ */
 
-.front {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    transform: rotateY(0deg);
+.flip-container {
+    width: 550px;
+    height: 400px;
+    margin: 35px auto;
+    margin-bottom: 10px;
+    background-color: #ffffff;
 }
+    
 
-.back {
+/* .back {
     display: flex;
     justify-content: space-between;
     align-items: center;
     transform: rotateY(180deg);
     color: #000000;
-}
+} */
 
 .projContent h2 {
     color: #27557C;
@@ -367,54 +369,16 @@ h4 {
     color: #ffffff;
 }
 
-.flip-container {
-    padding: 20px;
-    background-color:
+.front{
+    width: 500px;
+    height: 300px;
 }
 
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-    transform: rotateY(180deg);
+.content2 {
+    display: flex;
+    justify-content: center;
 }
 
-.flip-container, .front, .back {
-    width: 950px;
-    height: 500px;
-    margin: 40px auto;
-}
-
-.flipper {
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    position: relative;
-}
-
-.front, .back {
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.back ul {
-    width: 63%;
-    font-size: 0.8em;
-}
-
-.back li {
-    margin-bottom: 20px;
-    list-style-type: square;
-    font-weight: 300;
-}
-
-.back h3 {
-    width: 27%;
-    color: #3D90D3;
-}
-
-.back p {
-    font-size: 0.7em;
-    font-style: italic;
-}
 
 .bcmglass {
     background-image: url('../images/bcmGlass.png');
