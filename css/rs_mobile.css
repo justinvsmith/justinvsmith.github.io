@@ -238,22 +238,25 @@ a {
     }
 
     /* -----------
-    Resume Page
+    Project Page
     ------------ */
 
-    .front {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 95%;
+    .flip-container {
+        width: 98%;
+        height: 265px;
+        margin: 35px auto;
+        margin-bottom: 5px;
+        background-color: #ffffff;
+        padding-top: 5px;
     }
-    
-    .back {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        color: #000000;
+        
+    .flip-container:first-of-type {
+        margin-top: 10px;
+    }
+
+    .front{
+        width: 93%;
+        height: 175px;
     }
     
     .projContent h2 {
